@@ -25,7 +25,7 @@ function dateSample(sampleActivity) {
   if (isFinite(time) === false) {return false}
   if (time <= 0) {return false}
   return Math.ceil(time);
-}
+} 
 
 module.exports = {
   dateSample
