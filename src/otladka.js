@@ -1,8 +1,9 @@
-function calculateHanoi(disksNumber, turnsSpeed) {
-  let turns = ((2 ** disksNumber) - 1);
-  let seconds = Math.floor(turns * 3600 / turnsSpeed);
-  let object = {turns: turns, seconds: seconds}
-  return object;
+function transform( arr ) {
+  let newArr = [];
+  for (let i=0; i<arr.length ;i++){
+    if (arr[i] = '--double-next') {newArr.push(arr[i+1]);newArr.push(arr[i+1])}
+  }
+  console.log(newArr);
 }
 
-calculateHanoi(5, 4074);
+transform(['--double-next', 2]);
